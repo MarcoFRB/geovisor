@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = 8081;
-const PUBLIC_DIR = 'c:/AFOLU_Copernicus/visor_limpio';
+const PUBLIC_DIR = __dirname;
 
 const MIME_TYPES = {
     '.html': 'text/html',
